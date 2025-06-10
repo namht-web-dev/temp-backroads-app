@@ -25,6 +25,9 @@ const Footer = () => {
         copyright &copy; Backroads travel tours company
         <span id="date">{new Date().getFullYear()}</span> all rights reserved
       </p>
+      <p style={{ color: "white", fontWeight: "bold" }}>
+        Remake by Hoàng Trung Nam
+      </p>
     </footer>
   );
 };
